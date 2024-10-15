@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  color: #333;
+}
+
+header {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  margin-top: 4vh;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: white;
+}
+
+nav a:active {
+  background-color: grey;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1vw;
+}
+
+.flappy {
+  width: 600px;
+  padding-top: 5vw;
+}
+
+.flappy p {
+  margin-left: 2vw;
+  margin-top: 1vw;
+  color: #333;
+  margin-right: 50vw;
+}
+
+.flappy img {
+  width: 30vw;
+  border-radius: 15px;
+  margin-left: 2vw;
+  border: 3px solid black;
+}
+
+.flappy img:hover {
+  transform: scale(1.1);
+}
+
+.game-rpg {
+  width: 30vw;
+  padding-top: 2vw;
+  margin-left: 5vw;
+}
+
+.game-rpg p {
+  margin-left: 2vw;
+  margin-top: 1vw;
+  color: #333;
+  margin-right: 50vw;
+  display: inline-block;
+}
+
+.game-rpg img {
+  margin-top: 3vw;
+  width: 25vw;
+  border-radius: 15px;
+  margin-left: 10vw;
+  border: 3px solid black;
+  display: inline-block;
+}
+
+.game-rpg img:hover {
+  transform: scale(1.1);
+}
+
+.lojinha {
+  width: 30vw;
+  padding-top: 2vw;
+}
+
+.lojinha img {
+  margin-top: 3vw;
+  width: 25vw;
+  height: 15vw;
+  border-radius: 15px;
+  margin-left: 2vw;
+  border: 3px solid black;
+  display: inline-block;
+}
+
+.lojinha p {
+  margin-left: 2vw;
+  margin-top: 1vw;
+}
+
+.lojinha img:hover {
+  transform: scale(1.1);
+}
+
+.flappy, .game-rpg, .lojinha {
+  display: inline;
+}
+
+.tcc {
+  margin-left: 2vw;
+  margin-top: 3vw;
+}
+.tcc p , .tcc h1{
+  margin-left: 20vw;
+  margin-top: 1vw;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+p {
+  width: 500px;
+}

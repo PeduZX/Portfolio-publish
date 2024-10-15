@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: whitesmoke;
+    color: #333;
+}
+
+header {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    margin-top: 4vh;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: white;
+}
+
+nav a:active {
+    background-color: grey;
+    color: white;
+}
+
+main {
+    position: relative;
+}
+
+main img {
+    width: 99vw;
+    height: 50vw;
+    z-index: 1;
+}
+
+article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     z-index: 2;    /*mexe nas camadas ele que bota o fundo pra frente */
+    background-color: rgba(255, 255, 255, 0.747);
+    padding: 20px;
+    border-radius: 15px;
+    width: 50vw;
+    height: 25vw;
+    text-align: center;
+    margin-top: -10vh;
+}
+
+article a {
+    text-decoration: none;
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    line-height: 40px; /* Centraliza o texto pra cima ou pra baixo */
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+article .instagram {
+    background: linear-gradient(to right, purple, red, yellow);
+}
+
+
+article .github {
+    background: linear-gradient(to right, black, grey);
+}
+
+article .linkedin {
+    background: linear-gradient(to right, blue, rgb(100, 164, 236));
+}
+
+article a:hover {
+    transform: scale(1.1);
+}
