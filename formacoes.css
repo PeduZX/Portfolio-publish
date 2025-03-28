@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    color: #333;
+}
+
+header {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    margin-top: 4vh;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: white;
+}
+
+nav a:active {
+    background-color: grey;
+    color: white;
+}
+main img{
+    height: 40vh;
+    border-radius: 15px;
+    margin: 10px;
+    margin: 40px;
+    margin-left: 10vh;
+}
+main img:hover{
+    transform: scale(1.1);
+}
+.laSALLE{
+    display: inline-block;
+}
+.ingles{
+    display: inline-block;
+}
+main p {
+   margin-left: 5vw;
+}
+.senac img, .laSALLE img, .ingles img{
+    width: 65vh;
+    height: 40vh;
+    border: 3px solid black;
+}
+main{
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        height: 40vw;
+        gap: 10px;
+        justify-content: start;
+        
+
+    }
+    }

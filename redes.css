@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: whitesmoke;
+    color: #333;
+}
+
+header {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    margin-top: 4vh;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: white;
+}
+
+nav a:active {
+    background-color: grey;
+    color: white;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    margin-top: 40vw;
+    position: absolute;
+    background-color: rgb(230, 228, 228);
+    border-radius: 15px;
+    width: 50vw;
+    height: 25vw;
+    text-align: center;
+    
+}
+
+article a {
+    text-decoration: none;
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    line-height: 40px; /* Centraliza o texto pra cima ou pra baixo */
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+article .instagram {
+    background: linear-gradient(to right, purple, red, yellow);
+}
+
+
+article .github {
+    background: linear-gradient(to right, black, grey);
+}
+
+article .linkedin {
+    background: linear-gradient(to right, blue, rgb(100, 164, 236));
+}
+
+article a:hover {
+    transform: scale(1.1);
+}
+.github i {
+    font-size: 24px; 
+    margin-right: 10px; 
+}
+.instagram i {
+    font-size: 24px; 
+    margin-right: 10px; 
+}
+.linkedin i {
+    font-size: 24px; 
+    margin-right: 10px; 
+}
+@media screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        height: 40vw;
+        gap: 10px;
+        justify-content: start;
+        
+
+    }
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    article {
+        margin-top: 70vw;
+        position: absolute;
+        background-color: rgb(230, 228, 228);
+        border-radius: 15px;
+        width: 50vw;
+        height: 50vw;
+        text-align: center;
+        
+    }
+    
+    article a {
+        text-decoration: none;
+        display: inline-block;
+        width: 250px;
+        height: 40px;
+        line-height: 40px; /* Centraliza o texto pra cima ou pra baixo */
+        border-radius: 30px;
+        color: white;
+        font-size: 15px;
+        margin: 10px 0;
+        transition: 0.3s;
+    }
+    }
+
